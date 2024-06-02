@@ -1,0 +1,166 @@
+.main{
+    /*background-image: url(./metallic-pink-glitter-background.jpg);
+background-position: cover;*/
+background:#0f0f0f;
+height: 1000px;
+display: flex;
+justify-content: space-around;
+padding-top: 100px;
+}
+.card{
+    border: 0.1rem solid #000;
+    padding: 20px;
+    
+    background-size:cover;
+    color:aliceblue;
+    font-family: sans-serif;
+  text-shadow:
+    -1px -1px 0 black;
+ display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    font-size: medium;
+  
+    width: 220px;
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+     margin: 30px;
+}
+
+.cards_container{
+    margin-top: 170px;
+ 
+}
+
+.btn_change_exchanged_curr {
+      
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+      padding-left: 80px;
+      cursor: pointer;
+    cursor: pointer;
+    border: none;
+    background-image: url('./arrow.svg');
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent; /* Ensure the background is transparent */
+}
+.exchange_container{
+  
+  margin: 170px;
+    
+}
+.currencyIn{
+    display: block;
+}
+
+.currencyOut{
+    display: block;
+}
+
+.cards_container_inner{
+  
+}
+
+
+.buyCurrency{
+    width: 100%;
+}
+
+.sellCurrency{
+    width: 100%;
+}
+
+.currency_ab_inner{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    
+}
+
+.currency_exchange_form{
+ border: 0.1rem solid #b3b1b1;;
+ border-radius: 20px;
+    padding: 30px;
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.bubble{
+    border: 0.1rem solid  #b3b1b1;
+    color: #b3b1b1;
+    animation: float 7s infinite;
+ margin: 20px;
+    padding: 35px;
+      /* width: 120px;
+    height: 120px;*/
+    border-radius: 100%;
+  /* margin: 100px;*/
+    text-align: center;
+}
+
+@keyframes float{
+    0%{
+       /* transform: translateZ(100vh);    */
+        opacity:0.1;
+        transform: rotateY('0px');
+    }
+    50%{
+        opacity:0.6;
+         transform: rotateY('309px');
+    }100%{
+         transform: rotateX('1000px');
+      /*  transform: translateZ(-100vh);*/
+         opacity: 0.2;
+    }
+}
+
+
+.bubble_container{
+    width: 1050px;
+     position: absolute;
+     gap: 100px;
+     height: 1000px;
+     margin-right: 100px;
+}
+
+
+.bubble_name{
+    color: #b3b1b1;
+    animation: float 7s infinite;
+ margin: 30px;
+    padding: 35px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.currencyOut{
+    background: transparent;
+     border-radius: 20px;
+     padding: 10px;
+}
+
+
+.currencyIn{
+    background: transparent;
+    border-radius: 20px;
+    padding: 10px;
+}
+.btn_submit_exchange{
+    padding: 10px;
+   background: #444444;
+   border-radius: 20px;
+   border: 0.1rem solid rgb(80, 82, 83);
+    color: #b3b1b1;
+    width: 80%;
+}
